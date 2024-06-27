@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body{
+background-color:pink;   }
+.image {
+            float: right; /* Float the image to the right */
+            width: 700 /* Adjust this value based on your layout */
+            Height:300;
+</style>
+<body>
+<center>
+ <div class="image">
+<img src="ONLINE EDUCATION.jpg" alt="Girl in a jacket" width="1260" height="300">
+</div>
+</center>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+               
+               
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1 style="color:red;">Contact Us</h1>
+        <p style="color:blue;">If you have any questions or inquiries, please feel free to contact us using the information below:</p>
+ <div class="image">
+<img src="ONLINE LEARN.jpg" alt="Girl in a jacket" width="700" height="300">
+</div>
+        <div class="contact-info">
+            <h2 style="color:green;">Contact Information</h2>
+            <ul>
+                <li style="color:blue;">Email: jatinrana331@gmail.com</li>
+                <li style="color:blue;">Phone:8571880937</li>
+                <li style="color:blue;">Address: Jatola,Kharkhoda,Sonipat,Haryana-131402,India</li>
+            </ul>
+        </div>
+
+        <div class="contact-form">
+            <h2 style="color:red;">Contact Form</h2>
+            <form action="submit_contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        &copy; 2023 Online Education Platform.
+    </footer>
+</body>
+</html>
